@@ -1,0 +1,99 @@
+// ========= ID'S ========= //
+#bg { position: fixed; top: 0px; left: 0; z-index:-10; }
+
+
+#page-wrap {
+	position:relative;
+	width: 960px;
+	margin: 20px auto;
+	padding: 0px;
+	-moz-box-shadow: 0 0 5px black;
+	-webkit-box-shadow: 0 0 5px black;
+	box-shadow: 0 0 5px black;
+	overflow:hidden;
+	background-image:url(#{$base-image-path}/background-top.gif);
+	background-position:top;
+	background-repeat:repeat-x;
+	background-color:#FFF;
+	}
+#inner-wrap {
+	width:960px;
+	background-image:url(#{$base-image-path}/background-bottom.gif);
+	background-position:bottom;
+	background-repeat:no-repeat;
+	overflow:hidden;
+}
+#logobox {
+	margin:40px 0 40px 0;
+}
+
+#contentbox {
+	margin:20px 20px 0 0;
+	float:right;
+	width:700px;
+	ul li {
+		margin:0 0 0 15px;
+		font-size:11px;
+		line-height:18px;		
+	}
+}
+
+#hometextbox {
+	overflow:auto;
+	clear:both;
+	width:700px;
+}
+#commercialintrotextbox {
+	width:700px;
+	overflow:auto;
+}
+#footer {
+	margin:20px 0 20px 0;
+	width:700px;
+	p {
+		font-size:9px;
+		color:#a07c52;
+		margin:0;
+		text-align:right;
+		a { color:#c5783d;}
+	}
+}
+#majorholdings2 {
+	@include majorholdings("auto");
+}
+
+
+// ========= CLASSES ========= //
+.bgwidth { width: 100%; }
+
+.bgheight { height: 100%; }
+
+.topspacer {
+	margin:37px 0 8px 0;
+}
+.majorholdings {
+	@include majorholdings("hidden");
+	p {line-height:14px;}
+}
+.leasingbox {
+	@include leasingbox;	
+} 
+
+.leasingboxfloat {
+	@include leasingbox;
+	float:right;
+}
+
+.rule {
+	margin:15px 0 15px 0;
+}
+
+.footerrule {
+	margin:0px 0 0px 0;
+}
+
+.headrule {
+	margin:8px 0 15px 0;
+}
+
+

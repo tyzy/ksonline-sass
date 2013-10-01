@@ -1,0 +1,76 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+html {
+	overflow-y:scroll;
+}
+body {
+	font-size:11px; 
+	color: #4b301f; 
+	font-family: $base-font-family; 
+	background-color:#000;
+}
+a {
+	font-family: $base-font-family; 
+	text-decoration: $base-font-decoration; 
+	color: $base-font-color;
+
+	.nextbutton {
+		letter-spacing:1px;
+	}
+}
+a:hover {
+	text-decoration:underline;
+	color:#000;
+}
+h1 {
+	// @args:  $fontSize, $lineHeight, $fontWeight, $margin
+	@include base-element-font( 22, 22, normal, 0 0 5px 0 );
+}
+h2 {
+	// @args:  $fontSize, $lineHeight, $fontWeight, $margin
+	@include base-element-font( 18, 18, normal, 0 0 10px 0 );
+}
+h3 {
+	// @args: $fontSize, $lineHeight, $fontWeight, $margin
+	@include base-element-font( 12, 18, bold, 11px 0 2px 0 );
+}
+h4 {
+	// @args: $fontSize, $lineHeight, $fontWeight, $margin	
+	@include base-element-font( 16, 16, normal, 0 0 10px 0 );
+}
+h5 {
+	// @args: $fontSize, $lineHeight, $fontWeight, $margin
+	@include base-element-font( 12, 18, bold, 1px 0 0 0 );
+}
+p {
+	// @args: $fontSize, $lineHeight, $fontWeight, $margin	
+	@include base-element-font( 11, 18, "no", 11px 0 0 0 );
+	
+	.nospace {
+		// @args: $fontSize, $lineHeight, $fontWeight, $margin
+		@include base-element-font( 11, 18, "no", 0 );
+	}
+	.bottomspace {
+		// @args: $fontSize, $lineHeight, $fontWeight, $margin
+		@include base-element-font( 11, 18, "no", 0 0 11px 0 );
+	}	
+}
+
+
+

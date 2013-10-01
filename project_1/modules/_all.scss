@@ -1,0 +1,25 @@
+// ============ VARIABLES ============ //
+
+
+
+// ============ MIXINS ============ //
+@mixin base-element-font( $fontSize: "no", $lineHeight: "no", $fontWeight: "no", $margin: "no" ) {
+	@if $fontSize != "no" {font-size:$fontSize px;}
+	@if $lineHeight != "no" {line-height:$lineHeight px;}
+	@if $fontWeight != "no" {font-weight:$fontWeight;}
+	@if $margin != "no" {margin:$margin;}
+}
+
+@mixin majorholdings($overflow) {
+	width:700px;
+	margin:10px 0 0 0;
+	overflow:$overflow;	
+}
+
+@mixin leasingbox {
+	padding:15px;
+	width:230px;
+	background-color:#ffeac6;
+	margin:0;
+	text-align:center;	
+}
