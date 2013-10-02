@@ -1,0 +1,334 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0; }
+
+html {
+  overflow-y: scroll; }
+
+body {
+  font-size: 11px;
+  color: #4b301f;
+  font-family: "Open Sans", sans-serif;
+  background-color: #000; }
+
+a {
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  color: #993300; }
+  a .nextbutton {
+    letter-spacing: 1px; }
+
+a:hover {
+  text-decoration: underline;
+  color: #000; }
+
+h1 {
+  font-size: 22 px;
+  line-height: 22 px;
+  font-weight: normal;
+  margin: 0 0 5px 0; }
+
+h2 {
+  font-size: 18 px;
+  line-height: 18 px;
+  font-weight: normal;
+  margin: 0 0 10px 0; }
+
+h3 {
+  font-size: 12 px;
+  line-height: 18 px;
+  font-weight: bold;
+  margin: 11px 0 2px 0; }
+
+h4 {
+  font-size: 16 px;
+  line-height: 16 px;
+  font-weight: normal;
+  margin: 0 0 10px 0; }
+
+h5 {
+  font-size: 12 px;
+  line-height: 18 px;
+  font-weight: bold;
+  margin: 1px 0 0 0; }
+
+p {
+  font-size: 11 px;
+  line-height: 18 px;
+  margin: 11px 0 0 0; }
+  p .nospace {
+    font-size: 11 px;
+    line-height: 18 px;
+    margin: 0; }
+  p .bottomspace {
+    font-size: 11 px;
+    line-height: 18 px;
+    margin: 0 0 11px 0; }
+
+#splashimage {
+  margin: 0 0 15px 0; }
+
+.homesmallimage {
+  width: 150px;
+  float: left;
+  margin: 0 0 0 7px; }
+
+.imageright200 {
+  float: right;
+  width: 200px;
+  margin: 0 0 10px 10px; }
+
+.imageright240 {
+  float: right;
+  width: 240px;
+  margin: 0 0 10px 10px; }
+
+.imageright {
+  float: right;
+  width: 224px;
+  margin: 0 0 10px 10px; }
+
+.imageright360 {
+  float: right;
+  width: 360px;
+  margin: 5px 0 10px 10px; }
+
+.thumb {
+  width: 134px;
+  float: left;
+  padding: 0 6px 0 0; }
+
+.thumb p {
+  margin: 3px 0 0 0; }
+
+.thumblast {
+  width: 134px;
+  float: left;
+  padding: 0 0 0 0; }
+
+.thumblast p {
+  margin: 3px 0 0 0; }
+
+#hometext {
+  width: 386px;
+  float: left; }
+  #hometext p {
+    margin: 0; }
+
+.commercialtext {
+  width: 465px;
+  float: left; }
+
+.caption {
+  text-align: center;
+  font-weight: bold;
+  margin: 0px 0 0 0; }
+
+.captionlight {
+  margin: 5px 0 25px 0; }
+
+.captionlightnospace {
+  margin: 5px 0 0 0; }
+
+#bg {
+  position: fixed;
+  top: 0px;
+  left: 0;
+  z-index: -10; }
+
+#page-wrap {
+  position: relative;
+  width: 960px;
+  margin: 20px auto;
+  padding: 0px;
+  -moz-box-shadow: 0 0 5px black;
+  -webkit-box-shadow: 0 0 5px black;
+  box-shadow: 0 0 5px black;
+  overflow: hidden;
+  background-image: url(/sasstime/commercialrealestate/images/background-top.gif);
+  background-position: top;
+  background-repeat: repeat-x;
+  background-color: #FFF; }
+
+#inner-wrap {
+  width: 960px;
+  background-image: url(/sasstime/commercialrealestate/images/background-bottom.gif);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  overflow: hidden; }
+
+#logobox {
+  margin: 40px 0 40px 0; }
+
+#contentbox {
+  margin: 20px 20px 0 0;
+  float: right;
+  width: 700px; }
+  #contentbox ul li {
+    margin: 0 0 0 15px;
+    font-size: 11px;
+    line-height: 18px; }
+
+#hometextbox {
+  overflow: auto;
+  clear: both;
+  width: 700px; }
+
+#commercialintrotextbox {
+  width: 700px;
+  overflow: auto; }
+
+#footer {
+  margin: 20px 0 20px 0;
+  width: 700px; }
+  #footer p {
+    font-size: 9px;
+    color: #a07c52;
+    margin: 0;
+    text-align: right; }
+    #footer p a {
+      color: #c5783d; }
+
+#majorholdings2 {
+  width: 700px;
+  margin: 10px 0 0 0;
+  overflow: "auto"; }
+
+.bgwidth {
+  width: 100%; }
+
+.bgheight {
+  height: 100%; }
+
+.topspacer {
+  margin: 37px 0 8px 0; }
+
+.majorholdings {
+  width: 700px;
+  margin: 10px 0 0 0;
+  overflow: "hidden"; }
+  .majorholdings p {
+    line-height: 14px; }
+
+.leasingbox {
+  padding: 15px;
+  width: 230px;
+  background-color: #ffeac6;
+  margin: 0;
+  text-align: center; }
+
+.leasingboxfloat {
+  padding: 15px;
+  width: 230px;
+  background-color: #ffeac6;
+  margin: 0;
+  text-align: center;
+  float: right; }
+
+.rule {
+  margin: 15px 0 15px 0; }
+
+.footerrule {
+  margin: 0px 0 0px 0; }
+
+.headrule {
+  margin: 8px 0 15px 0; }
+
+ul #menu {
+  margin: 0 auto;
+  text-align: center;
+  width: 200px;
+  padding: 0;
+  list-style: none;
+  clear: both; }
+
+#navbox {
+  width: 200px;
+  float: left;
+  margin: 20px 20px 0 20px;
+  padding: 0 0 30px 0; }
+
+#nav {
+  width: 200px;
+  height: 220px; }
+
+#menu li {
+  text-indent: -9999px; }
+  #menu li a {
+    background: url("/sasstime/commercialrealestate/images/nav.png") no-repeat;
+    width: 100%;
+    height: 100%;
+    display: block; }
+  #menu li .credhome {
+    width: 200px;
+    height: 35px; }
+    #menu li .credhome a {
+      background-position: 0px 0px; }
+      #menu li .credhome a:hover {
+        background-position: -200px 0px; }
+  #menu li .commercial {
+    width: 200px;
+    height: 45px; }
+    #menu li .commercial a {
+      background-position: 0px -35px; }
+      #menu li .commercial a:hover {
+        background-position: -200px -35px; }
+  #menu li .endowment {
+    width: 200px;
+    height: 35px; }
+    #menu li .endowment a {
+      background-position: 0px -80px; }
+      #menu li .endowment a:hover {
+        background-position: -200px -80px; }
+  #menu li .story {
+    width: 200px;
+    height: 35px; }
+    #menu li .story a {
+      background-position: 0px -115px; }
+      #menu li .story a:hover {
+        background-position: -200px -115px; }
+  #menu li .news {
+    width: 200px;
+    height: 35px; }
+    #menu li .news a {
+      background-position: 0px -150px; }
+      #menu li .news a:hover {
+        background-position: -200px -150px; }
+  #menu li .contact {
+    width: 200px;
+    height: 35px; }
+    #menu li .contact a {
+      background-position: 0px -185px; }
+      #menu li .contact a:hover {
+        background-position: -200px -185px; }
+
+/*to highlight menu item for page currently on*/
+.homeselected #menu li.credhome a {
+  background-position: -200px 0px; }
+
+.commercialselected #menu li.commercial a {
+  background-position: -200px -35px; }
+
+.endowmentselected #menu li.endowment a {
+  background-position: -200px -80px; }
+
+.storyselected #menu li.story a {
+  background-position: -200px -115px; }
+
+.contactselected #menu li.contact a {
+  background-position: -200px -185px; }
+
+/*# sourceMappingURL=kso_main.css.map */
